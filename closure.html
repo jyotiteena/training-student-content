@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function first() {
+            var a = 10;
+            var b = 4;
+            return () => {
+                var c = 10;
+                return ()=>{
+                    return a+b+c;
+                }
+            }
+        }
+
+       const f1 = first()()()
+       console.log(f1)
+    </script>
+</body>
+
+</html>

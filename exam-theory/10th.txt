@@ -1,0 +1,38 @@
+
+Date: 10-04-2025
+
+✏️ Question 1:
+Explain the difference between an ID and a Class in CSS. When would you use each one, and why is it important to understand their specificity? Provide examples in your answer.
+
+✏️ Question 2:
+What is the CSS Box Model? Describe each part of it in detail and explain how margin, border, padding, and content work together to affect the layout of a webpage.
+
+✏️ Question 3:
+What is JavaScript and how is it used in web development? Describe its role in enhancing user interaction on websites, and explain how it differs from HTML and CSS.
+✏️ Question 4:
+Explain the concept of Closure in JavaScript with an example. How does it work, and why is it useful in functions and scope management?
+✏️ Question 5:
+What is React and why is it popular for building modern web applications? Describe its key features and how it helps in creating dynamic user interfaces.
+✏️ Question 6:
+Explain what JSX is in React. How is it different from regular JavaScript, and why is it important when building React components? Provide examples to support your answer.
+
+✏️ Question 7:
+WAP to make reverse number of given numbers
+Ex: 123
+Answer : 321
+
+
+✏️ Question 8:
+WAP to check number is palindrome or not without functions 
+Ex: 123
+Answer : it is not palindrome
+
+✏️ Question 9:
+WAP print sum of digits
+Ex: 123
+Answer : 6
+
+✏️ Question 10:
+WAP to find First and last digit sum 
+Ex: 1234
+Answer : 1+4 =5 

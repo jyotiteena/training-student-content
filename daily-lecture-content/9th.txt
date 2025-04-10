@@ -1,0 +1,12 @@
+ID vs Class, 
+CSS Types, 
+Box Model,	
+What is JS?, 
+Closure, 
+Hoisting,
+What is React?,
+JSX, 
+API , 
+Palindrome, 
+Basic Todo List,
+Hoisting Error Example
