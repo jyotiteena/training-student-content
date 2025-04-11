@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = 10;
+        function add(){
+            var a = 30;
+            console.log(a)  // 30
+        }
+        add()
+        console.log(a) // 10
+
+        var b = 10;
+        function add(){
+            b = 30;
+            b = 100;
+            console.log(b)  /// 100
+        }
+        add()
+        console.log(b)  /// 100
+
+
+    </script>
+</body>
+</html>
