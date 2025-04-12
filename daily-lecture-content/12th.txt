@@ -1,0 +1,12 @@
+Media Query,
+Animations, 
+Responsive Design, 
+String Methods, 
+Palindrome, 
+Arrays,
+useEffect, 
+fetch vs axios, 
+HTTP vs HTTPS,
+Remove Duplicates from Array,
+Find Even Numbers,
+Find First Number
