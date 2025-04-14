@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const arr = [12, 34];
+        arr.push(34)  /// insert at last index 
+        arr.pop() ///  delete from last index
+        arr.shift() //// delete from first index
+        arr.unshift(100); //// insert at first index
+        // arr.splice(index,'delete count',"insert data ")  /// data insert and delete from specified index
+
+
+        arr.slice('start index', 'end index');
+
+        const arr1 = [23, 54, 222]
+        console.log(arr1.reverse())
+        console.log(arr1)
+
+        const arr2 = [34, 43, 22]
+        console.log(arr2.toReversed())
+        console.log(arr2)
+
+
+        const mergeArr = arr1.concat(arr2)
+        console.log(mergeArr)
+
+        console.log(arr1.includes(23))
+        console.log(arr1.includes(232))
+
+        console.log(typeof arr1)
+
+
+        const arrObj = [
+            {
+                id: 123,
+                name: "test"
+            },
+            {
+                id: 112,
+                name: "test2"
+            },
+            {
+                id: 123,
+                name: "test3"
+            }
+        ]
+
+
+        const index = arrObj.findIndex((ele) => {
+            return ele.id === 1128
+        })
+        console.log(index) //// -1  --- id not found
+
+        const index2 = arrObj.findIndex((ele) => {
+            return ele.id === 112
+        })
+        console.log(index2) //// 1
+
+        const singleEle = arrObj.find((ele) => {
+            return ele.id === 123
+        })
+        console.log(singleEle)
+
+        const multipleEle = arrObj.filter((ele) => {
+            return ele.id === 123
+        })
+        console.log(multipleEle)
+
+        const arr4 = [12, 3, 4];
+        console.log(arr4.indexOf(3))
+        console.log(arr4.indexOf(32))
+
+        const arr5 = [12, 3, 4, 6, 7, 8, 9]
+
+        /////// Find Last Number
+        console.log(arr5[arr5.length - 1])
+
+
+        //////// highest value from array using filter
+        const arr7 = [12, 43, 22, 55, 29, 11,100,100];
+
+        // var max = Math.max(...arr7)
+        // const findMax = arr7.filter((ele) => {
+        //     return ele===max
+        // })
+
+        // console.log(Math.max(...arr7))
+        // console.log(findMax)
+
+        const findMax = arr7.filter((ele,index,array)=>{
+            return ele>=Math.max(...array)
+        })
+        console.log(findMax[0])
+    </script>
+</body>
+
+</html>
