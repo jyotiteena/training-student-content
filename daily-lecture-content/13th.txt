@@ -1,0 +1,12 @@
+Grid, 
+Flex vs Grid, 
+Bootstrap Flex	
+Array Methods, 
+slice() vs splice(), 
+indexOf()	
+Redux, 
+Middleware, 
+Promise	
+Find First Number’s Index,
+Find Last Number,
+Find Highest using filter()
