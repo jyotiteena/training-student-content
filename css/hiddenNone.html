@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 300px;
+            aspect-ratio: 1;
+            background-color: red;
+            position: relative;
+        }
+
+        .box button {
+            /* display: none;  -- not occupy space */
+            /* visibility: hidden; allote space */
+            opacity: 0;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            transition: all 3s linear;
+        }
+
+        .box:hover button {
+            /* display: block; */
+            /* visibility: visible; */
+            opacity: 1;
+        }
+
+        h1 {
+            /* display: none; */
+            /* visibility: hidden; */
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <button>show</button>
+    </div>
+    <h1>web</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda perferendis cupiditate libero consectetur
+        maxime molestiae quae ex, deleniti officiis quam accusamus culpa optio ut ad expedita magnam veniam ratione
+        alias.
+    </p>
+</body>
+
+</html>
