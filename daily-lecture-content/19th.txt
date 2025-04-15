@@ -1,0 +1,11 @@
+Inline vs Block, 
+CSS Tricks, 
+Shorthand	
+OOPs in JS, 
+Cloud, 
+JS Final Review	Full Stack Concept, 
+Project Qs, 
+Mock Interview	
+Todo App CRUD, 
+Mock Interview Questions,
+SQL Median Salary
