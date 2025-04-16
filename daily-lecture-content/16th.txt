@@ -1,5 +1,8 @@
-Specificity, 
-Units (px, em), 
+Specificity (inline > id> class> attribute > tag ), 
+Units (px, em, rem), 
+px (pixels) is an absolute unit, 
+em is relative to the parent element's font size, and 
+rem is relative to the root element's (usually <html>) font size
 CSS Vars
 Callback, 
 Callback Hell, 
