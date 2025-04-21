@@ -1,0 +1,17 @@
+Carousel (slider), 
+Bootstrap Navbar, 
+Container Types	
+NPM, 
+package.json vs package-lock.json, 
+bcrypt.js (encrypt (not readable), decrypt(encrypt to plain text))
+
+encrypt -> plain text(123) to encrypt text(4547534hedjfdgghfdg)  --> bcrypt.hash()
+decrypt -> encrypt(hash) to plain text   --> bcrypt.compare()
+Node.js -> runtime environment, single tread, 
+Single-threaded Reason, 
+5 NPM Packages
+Setup Node.js App,
+Use bcrypt.js,
+Use dotenv, 
+cors, (cross origin resource sharing)
+express - nodejs framework
